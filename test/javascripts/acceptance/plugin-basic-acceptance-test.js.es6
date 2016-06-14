@@ -5,6 +5,6 @@ test("A basic integration test", () => {
   visit("/");
 
   andThen(() => {
-    ok(exists('#main-outlet'), "Welcome");
+    ok(exists('.below-footer-outlet'), "Hello world");
   });
 });
